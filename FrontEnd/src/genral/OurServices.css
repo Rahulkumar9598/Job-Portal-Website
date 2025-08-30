@@ -1,0 +1,50 @@
+/* .service-section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+  
+}
+.card{
+    height: 70%;
+    width: 20%;
+    margin-top: 25px;
+} */
+
+.services-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f0f4f8;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}

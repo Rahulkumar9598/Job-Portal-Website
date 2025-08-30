@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+:root {
+  --radius-box: 0.5rem;
+}
+:root {
+  --spacing: 0.25rem; /* or whatever suits your design scale */
+}
